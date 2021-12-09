@@ -58,7 +58,7 @@ public class dataTypes {
 
     // ************************************************************************************************* //
 
-    // Float and Double data types are used when we want more precision in calculations. Float is a single precision, and double is a double precision. Double is the default Java data type for precision.
+    // Float and Double data types are used when we want more precision in calculations. Float is a single precision, and double is a double precision. Double is the default and prefered Java data type.
     
     // Float occupies 32 bits.
     float minFloatValue = Float.MIN_VALUE;
