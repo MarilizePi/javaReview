@@ -71,5 +71,39 @@ public class dataTypes {
     double maxDoubleValue = Double.MAX_VALUE;
     System.out.println("The minimum double value is: " + minDoubleValue);
     System.out.println("The maximum double value is: " + maxDoubleValue);
+
+    //An important issue to point out is that while float and double data types are good in general calculations, they become limited when performing precise calculations. To solve that issue, we use a class called BigDecimal. An example is performing currency calculations.
+
+     // ************************************************************************************************* //
+
+// Char is used to store a single character in a variable. It occupies 16 bits of memory. Char allows us to store Unicode characters.
+
+char firstLetterOfMyName = 'M';
+System.out.println(firstLetterOfMyName);
+
+// In order to use any character, I can simply the reference number/letter.
+
+char letterPi = '\u03C0';
+System.out.println(letterPi);
+
+
+// Boolean is a very useful and important data type, as it allows for two choices: (TRUE or FALSE), or (1 or 0).
+
+boolean trueBooleanValue = true;
+boolean falseBooleanValue = false;
+
+System.out.println(trueBooleanValue);
+System.out.println(falseBooleanValue);
+
+
+// String is not a primitive data type. It is actually a class. A string, unlike the char, it can store a sequence of character. The max value is 2.14 billion characters. 
+
+// Also, Strings are immutable. They cannot be changed after being created. If I want it to be change, there is something called StringBuffer.
+
+String myName = "My name is Marilize.";
+System.out.println(myName);
+
+
+
     }
 }
